@@ -1,0 +1,7 @@
+Pasos para ejecutar modo bulk en C
+(notese que hice esto para CodeBlocks en Windows, segun yo son un par de pasos menos en Linux)
+como podran notar cuando se instala pinguino ide, deja instalado LibUSB por lo que es lo que usa como driver para los modos USB.
+Partiendo de eso les anexo una carpeta con libUSB y deben en el caso de codeBlocks:
+1-copiar los include,bin y lib en las carpetas del mismo nombre en el programa compilador (para mi caso a pesar de que esta instalado codeblocks lo hice)
+2.-code blocks ir a settings >> compiler and debugger settings>> linker ahi hacer click en la pestaña search directories y agregar la direccion del lib
+Listo codigo que les paso peude ser compilado y ejecutado.
